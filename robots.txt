@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://jericho-ui.github.io/smilecrafters-dental-47209/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# SEO optimizations
+Crawl-delay: 1
